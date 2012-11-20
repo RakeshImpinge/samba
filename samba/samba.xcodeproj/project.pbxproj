@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18269B24165BD1D9009B50DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18269B23165BD1D9009B50DD /* UIKit.framework */; };
+		18269B26165BD1D9009B50DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18269B25165BD1D9009B50DD /* Foundation.framework */; };
+		18269B28165BD1D9009B50DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18269B27165BD1D9009B50DD /* CoreGraphics.framework */; };
+		18269B2E165BD1D9009B50DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18269B2C165BD1D9009B50DD /* InfoPlist.strings */; };
+		18269B30165BD1D9009B50DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18269B2F165BD1D9009B50DD /* main.m */; };
+		18269B34165BD1D9009B50DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18269B33165BD1D9009B50DD /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18269B1F165BD1D9009B50DD /* samba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = samba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18269B23165BD1D9009B50DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18269B25165BD1D9009B50DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18269B27165BD1D9009B50DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18269B2B165BD1D9009B50DD /* samba-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "samba-Info.plist"; sourceTree = "<group>"; };
+		18269B2D165BD1D9009B50DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18269B2F165BD1D9009B50DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18269B31165BD1D9009B50DD /* samba-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "samba-Prefix.pch"; sourceTree = "<group>"; };
+		18269B32165BD1D9009B50DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18269B33165BD1D9009B50DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18269B1C165BD1D8009B50DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18269B24165BD1D9009B50DD /* UIKit.framework in Frameworks */,
+				18269B26165BD1D9009B50DD /* Foundation.framework in Frameworks */,
+				18269B28165BD1D9009B50DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18269B14165BD1D8009B50DD = {
+			isa = PBXGroup;
+			children = (
+				18269B29165BD1D9009B50DD /* samba */,
+				18269B22165BD1D9009B50DD /* Frameworks */,
+				18269B20165BD1D9009B50DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18269B20165BD1D9009B50DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18269B1F165BD1D9009B50DD /* samba.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18269B22165BD1D9009B50DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18269B23165BD1D9009B50DD /* UIKit.framework */,
+				18269B25165BD1D9009B50DD /* Foundation.framework */,
+				18269B27165BD1D9009B50DD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18269B29165BD1D9009B50DD /* samba */ = {
+			isa = PBXGroup;
+			children = (
+				18269B32165BD1D9009B50DD /* AppDelegate.h */,
+				18269B33165BD1D9009B50DD /* AppDelegate.m */,
+				18269B2A165BD1D9009B50DD /* Supporting Files */,
+			);
+			path = samba;
+			sourceTree = "<group>";
+		};
+		18269B2A165BD1D9009B50DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18269B2B165BD1D9009B50DD /* samba-Info.plist */,
+				18269B2C165BD1D9009B50DD /* InfoPlist.strings */,
+				18269B2F165BD1D9009B50DD /* main.m */,
+				18269B31165BD1D9009B50DD /* samba-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18269B1E165BD1D8009B50DD /* samba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18269B37165BD1D9009B50DD /* Build configuration list for PBXNativeTarget "samba" */;
+			buildPhases = (
+				18269B1B165BD1D8009B50DD /* Sources */,
+				18269B1C165BD1D8009B50DD /* Frameworks */,
+				18269B1D165BD1D8009B50DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = samba;
+			productName = samba;
+			productReference = 18269B1F165BD1D9009B50DD /* samba.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18269B16165BD1D8009B50DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 18269B19165BD1D8009B50DD /* Build configuration list for PBXProject "samba" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18269B14165BD1D8009B50DD;
+			productRefGroup = 18269B20165BD1D9009B50DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18269B1E165BD1D8009B50DD /* samba */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18269B1D165BD1D8009B50DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18269B2E165BD1D9009B50DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18269B1B165BD1D8009B50DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18269B30165BD1D9009B50DD /* main.m in Sources */,
+				18269B34165BD1D9009B50DD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18269B2C165BD1D9009B50DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18269B2D165BD1D9009B50DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18269B35165BD1D9009B50DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18269B36165BD1D9009B50DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18269B38165BD1D9009B50DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "samba/samba-Prefix.pch";
+				INFOPLIST_FILE = "samba/samba-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18269B39165BD1D9009B50DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "samba/samba-Prefix.pch";
+				INFOPLIST_FILE = "samba/samba-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18269B19165BD1D8009B50DD /* Build configuration list for PBXProject "samba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18269B35165BD1D9009B50DD /* Debug */,
+				18269B36165BD1D9009B50DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18269B37165BD1D9009B50DD /* Build configuration list for PBXNativeTarget "samba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18269B38165BD1D9009B50DD /* Debug */,
+				18269B39165BD1D9009B50DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18269B16165BD1D8009B50DD /* Project object */;
+}
